@@ -13,24 +13,20 @@ body{
 }
 .header_home_1{
     background-color:  rgb(38, 165, 197);
-    width: 97%;
-    margin: 0 1.5%;
+    width: 97vw;
+    margin: 0 1.5vw;
     height: 9vh;
 }
 .nav_home_1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
 
 }
-.nav_home_1 .centeral_image {
-    width: 40vw;
-}
 .nav_home_1 .centeral_image img{
-    width: 15vw;
+    width: 10vw;
     height: 9vh;
-    
 }
 
 .header_home_1 .nav_home_1 li {
@@ -87,7 +83,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
 }
 .load{
     background-color: rgba(109, 109, 114, 0.466);
@@ -148,18 +144,12 @@ body{
 
 
 
-
-
-
-
-
-
 /* links section start */
 .links_section_1{
     background-color: rgba(233, 252, 255, 0.87);
     margin: 0 1.5%;
     width: 97%;
- }
+}
 .links_section_1 .links_section_1_1{
     display: flex;
     height: 4vh;
