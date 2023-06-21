@@ -28,8 +28,8 @@ body{
     width: 40vw;
 }
 .nav_home_1 .centeral_image img{
-    width: 7rem;
-    height: 5rem;
+    width: 15vw;
+    height: 9vh;
     
 }
 
@@ -46,6 +46,9 @@ body{
 .header_home_1 .nav_home_1 li a:hover{
     color:#161d2e;
 }
+
+/* header end */
+
 .first_section_1{
     display: flex;
     justify-content: space-evenly;
@@ -77,10 +80,86 @@ body{
     border-radius: 7rem;    
 }
 
+/* anmations start */
+
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.load{
+    background-color: rgba(109, 109, 114, 0.466);
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    border-radius: 50%;
+    animation: animate 1.25s infinite alternate ;   
+}
+
+.one{
+    animation-delay: 0.125s;
+
+}
+.two{
+    animation-delay: 0.25s;
+
+}
+.three{
+    animation-delay: 0.375s;
+
+}
+.four{
+    animation-delay: 0.4s;
+
+}
+.five{
+    animation-delay: 0.525s;
+
+}
+.six{
+    animation-delay: 0.65s;
+
+}
+.seven{
+    animation-delay: 0.775s;
+
+}
+.eight{
+    animation-delay: 0.8s;
+
+}
+.nine{
+    animation-delay: 0.925s;
+
+}
+.ten{
+    animation-delay: 1.25s;
+
+}
+@keyframes animate{
+   100% {
+    opacity: .02;
+    transform:translateY(-55px);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/* links section start */
 .links_section_1{
     background-color: rgba(233, 252, 255, 0.87);
     margin: 0 1.5%;
-}
+    width: 97%;
+ }
 .links_section_1 .links_section_1_1{
     display: flex;
     height: 4vh;
