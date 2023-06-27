@@ -85,136 +85,52 @@ body {
     border-radius: 5rem;
 }
 
-/* anmations start */
-.cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-}
 
-.load {
-    background-color: rgba(0, 238, 255, 0.466);
-    width: 50px;
-    height: 50px;
-    margin-left: 2px;
-    border-radius: 50%;
-    animation: animate 1.25s infinite alternate;
-}
-
-.one {
-    animation-delay: 0.125s;
-
-}
-
-.two {
-    animation-delay: 0.25s;
-
-}
-
-.three {
-    animation-delay: 0.375s;
-
-}
-
-.four {
-    animation-delay: 0.4s;
-
-}
-
-.five {
-    animation-delay: 0.525s;
-
-}
-
-.six {
-    animation-delay: 0.65s;
-
-}
-
-.seven {
-    animation-delay: 0.775s;
-
-}
-
-.eight {
-    animation-delay: 0.8s;
-
-}
-
-.nine {
-    animation-delay: 0.925s;
-
-}
-
-.ten {
-    animation-delay: 1.25s;
-
-}
-
-@keyframes animate {
-    100% {
-        opacity: .02;
-        transform: translateY(-55px);
-
-    }
-}
-
-
-
+/* photo_certifications start */
 @font-face {
     font-family: "TitanOne";
     src: url(../Fonts/TitanOne-Regular.ttf);
 }
-
-
-/* photo_certifications start */
-.photo_certifications{
+.photo_certifications {
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin: 7rem 0;
     width: 99vw;
-
 }
-
-
-
-.Certifications_title{
+.Certifications_title {
     display: block;
     padding: 10px 20px;
     font-weight: bold;
-    font-family: "TitanOne" ;
+    font-family: "TitanOne";
+    letter-spacing: 5px;
     width: 100%;
     font-size: 60px;
-    color:#291f7f;
+    color: #291f7f;
     text-align: center;
     text-transform: uppercase;
-    animation: blink 3s infinite alternate;
+    animation: blink 1.5s infinite alternate;
 }
 @keyframes blink {
-    0%{
-    color:#00c3ff;
+    0% {
+        color: rgb(34, 211, 255);
     }
-    50%{
-        color:#1900ff;
-    }
-    100%{
-        color:#0c0268;
+    100% {
+        color: #0f3ea3;
     }
 }
-
-.img_certificate img{
+.img_certificate img {
     width: 500px;
     height: 300px;
-    padding: 20px 0 ;
+    padding: 20px 0;
 }
-.img_certificate img:hover{
+.img_certificate img:hover {
     outline: 2px solid rgba(60, 138, 161, 0.548);
 }
-
 /* photo_certifications end */
+
 
 /* links section start */
 .links_section_1 {
@@ -244,13 +160,6 @@ body {
     color: rgb(9, 117, 145);
 
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-device-width:557px) {
     .nav_home_1 .centeral_image img {
@@ -283,46 +192,29 @@ body {
         border-radius: 2rem;
     }
 
-    /* anmations start */
-    .cont {
-
-        height: 40vh;
-    }
-
-    .load {
-        width: 1.3rem;
-        height: 1.5rem;
-        margin-left: 1vw;
-        border-radius: 50%;
-    }
-
 
     /* Certifications section start */
 
-    .photo_certifications{
-
+    .photo_certifications {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
         width: 99vw;
-    
     }
-    
-    
-    .Certifications_title{
+    .Certifications_title {
         font-size: 6vw;
-        color:#291f7f;
+        color: #291f7f;
         text-align: center;
         text-transform: uppercase;
         animation: blink 3s infinite alternate;
     }
-    .img_certificate img{
+    .img_certificate img {
         width: 25rem;
         height: 20rem;
-        padding: 1rem ;
+        padding: 1rem;
     }
-    
+
 
 }
 
@@ -363,16 +255,17 @@ body {
     }
 
     /* crertifications section start */
-    .Certifications_title{
+    .Certifications_title {
         font-size: 7vw;
-        color:#291f7f;
+        color: #291f7f;
         text-align: center;
         text-transform: uppercase;
     }
-    .img_certificate img{
+
+    .img_certificate img {
         width: 15rem;
         height: 10rem;
-        padding: 1rem ;
+        padding: 1rem;
     }
 
 
@@ -382,7 +275,7 @@ body {
 @media only screen and (max-device-width:239px) {
     .header_home_1 {
         width: 100%;
-        margin: 0 ;
+        margin: 0;
         height: 9vh;
         justify-content: space-between;
     }
@@ -397,6 +290,7 @@ body {
         margin: 0;
         padding: 0;
     }
+
     .header_home_1 .nav_home_1 li a {
         font-size: 0.5rem;
     }
@@ -422,18 +316,19 @@ body {
 
 
 
-        /* crertifications section start */
-        .Certifications_title{
-            font-size: 7vw;
-            color:#291f7f;
-            text-align: center;
-            text-transform: uppercase;
-        }
-        .img_certificate img{
-            width: 5rem;
-            height: 3rem;
-            padding: 1rem ;
-        }
-    
+    /* crertifications section start */
+    .Certifications_title {
+        font-size: 7vw;
+        color: #291f7f;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .img_certificate img {
+        width: 5rem;
+        height: 3rem;
+        padding: 1rem;
+    }
+
 
 }
