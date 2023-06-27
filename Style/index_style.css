@@ -162,6 +162,60 @@ body {
 
 
 
+@font-face {
+    font-family: "TitanOne";
+    src: url(../Fonts/TitanOne-Regular.ttf);
+}
+
+
+/* photo_certifications start */
+.photo_certifications{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 99vw;
+
+}
+
+
+
+.Certifications_title{
+    display: block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: "TitanOne" ;
+    width: 100%;
+    font-size: 60px;
+    color:#291f7f;
+    text-align: center;
+    text-transform: uppercase;
+    animation: blink 3s infinite alternate;
+}
+@keyframes blink {
+    0%{
+    color:#00c3ff;
+    }
+    50%{
+        color:#1900ff;
+    }
+    100%{
+        color:#0c0268;
+    }
+}
+
+.img_certificate img{
+    width: 500px;
+    height: 300px;
+    padding: 20px 0 ;
+}
+.img_certificate img:hover{
+    outline: 2px solid rgba(60, 138, 161, 0.548);
+}
+
+/* photo_certifications end */
+
 /* links section start */
 .links_section_1 {
     background-color: rgb(202, 244, 255);
@@ -241,6 +295,35 @@ body {
         margin-left: 1vw;
         border-radius: 50%;
     }
+
+    .photo_certifications{
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 99vw;
+    
+    }
+    
+    
+    
+    .Certifications_title{
+        font-size: 7vw;
+        color:#291f7f;
+        text-align: center;
+        text-transform: uppercase;
+        animation: blink 3s infinite alternate;
+    }
+    .img_certificate img{
+        width: 7rem;
+        height: 5rem;
+        padding: 1rem ;
+    }
+    .img_certificate img:hover{
+        outline: 2px solid rgba(60, 138, 161, 0.548);
+    }
+    
 
 }
 
