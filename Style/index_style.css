@@ -169,8 +169,8 @@ body {
 @media only screen and (max-device-width:557px) {
 
     @font-face {
-        font-family: "LilitaOne";
-        src: url(../Fonts/LilitaOne-Regular.ttf);
+        font-family: "Oswald";
+        src: url(../Fonts/Oswald-VariableFont_wght.ttf);
     }
 
 
@@ -191,7 +191,7 @@ body {
     /* header end */
 
     .first_section_1 .content1_text1 {
-        font-family: "LilitaOne";
+        font-family: "Oswald";
         font-size: 4vw;
     }
 
