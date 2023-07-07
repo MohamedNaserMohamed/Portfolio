@@ -167,7 +167,6 @@ body {
 }
 
 @media only screen and (max-device-width:557px) {
-
     .nav_home_1 .centeral_image img {
         width: 10vw;
         height: 9vh;
@@ -186,8 +185,6 @@ body {
 
     .first_section_1 .content1_text1 {
         font-size: 4vw;
-        width: 90vw;
-        text-align: center;
     }
 
     .first_section_1 .content1_text1 span {
@@ -245,11 +242,11 @@ body {
     /* header end */
 
     .first_section_1 .content1_text1 {
-        font-size: 8vw;
+        font-size: 3vw;
     }
 
     .first_section_1 .content1_text1 span {
-        font-size: 10vw;
+        font-size: 5vw;
     }
 
     .content1_img1 img {
@@ -306,7 +303,7 @@ body {
     /* header end */
 
     .first_section_1 .content1_text1 {
-        font-size: 7vw;
+        font-size: 3vw;
         margin-right: 20vw;
     }
 
