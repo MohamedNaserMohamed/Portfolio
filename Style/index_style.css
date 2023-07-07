@@ -19,6 +19,7 @@ body {
     width: 97vw;
     margin: 0 1.5vw;
     height: 9vh;
+    box-shadow: 0px 2px 6px 2px rgb(185, 181, 181) ;
 }
 
 .nav_home_1 {
@@ -124,9 +125,13 @@ body {
     width: 500px;
     height: 300px;
     padding: 20px 0;
+    opacity: 0.7;
+    transition: 1s;
+
 }
 .img_certificate img:hover {
     outline: 2px solid rgba(60, 138, 161, 0.548);
+    opacity: 1;
 }
 /* photo_certifications end */
 
@@ -136,7 +141,7 @@ body {
     background-color: rgb(202, 244, 255);
     margin: 0 1.5%;
     width: 97%;
-}
+    box-shadow: 0px -2px 4px 1px #a8cdde;}
 
 .links_section_1 .links_section_1_1 {
     display: flex;
