@@ -167,13 +167,7 @@ body {
 }
 
 @media only screen and (max-device-width:557px) {
-
-    @font-face {
-        font-family: "Oswald";
-        src: url(../Fonts/Oswald-VariableFont_wght.ttf);
-    }
-
-
+    
     .nav_home_1 .centeral_image img {
         width: 10vw;
         height: 9vh;
@@ -191,12 +185,11 @@ body {
     /* header end */
 
     .first_section_1 .content1_text1 {
-        font-family: "Oswald";
         font-size: 4vw;
     }
 
     .first_section_1 .content1_text1 span {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .content1_img1 img {
@@ -251,13 +244,10 @@ body {
 
     .first_section_1 .content1_text1 {
         font-size: 8vw;
-        font-weight: 500;
     }
 
     .first_section_1 .content1_text1 span {
         font-size: 10vw;
-        font-weight: bold;
-
     }
 
     .content1_img1 img {
