@@ -196,7 +196,7 @@ body {
     }
 
     .first_section_1 .content1_text1 span {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     .content1_img1 img {
@@ -251,10 +251,13 @@ body {
 
     .first_section_1 .content1_text1 {
         font-size: 8vw;
+        font-weight: 500;
     }
 
     .first_section_1 .content1_text1 span {
         font-size: 10vw;
+        font-weight: bold;
+
     }
 
     .content1_img1 img {
