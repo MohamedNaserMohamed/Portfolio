@@ -82,7 +82,7 @@ body {
 
 .content1_img1 img {
     width: 30rem;
-    margin: 7rem 1.5vw;
+    margin: 7rem 6vw;
     border-radius: 5rem;
 }
 
@@ -242,11 +242,11 @@ body {
     /* header end */
 
     .first_section_1 .content1_text1 {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     .first_section_1 .content1_text1 span {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .content1_img1 img {
