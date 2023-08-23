@@ -74,7 +74,7 @@ body {
 }
 
 .first_section_1 .content1_text1 span {
-    color: aliceblue;
+    color: white;
     font-weight: bold;
     font-size: 8vw;
     font-family: "Monoton-Regular";
@@ -166,6 +166,7 @@ body {
 
 }
 
+
 @media only screen and (max-device-width:557px) {
 
     .nav_home_1 .centeral_image img {
@@ -199,6 +200,11 @@ body {
         margin: 7rem 0.5vw 0 0.5vw;
         border-radius: 2rem;
     }
+    
+.content1_img1::after,
+.content1_img1::before{
+    display: none;
+    }
 
 
     /* Certifications section start */
@@ -222,6 +228,7 @@ body {
         height: 20rem;
         padding: 1rem;
     }
+
 
 
 }
